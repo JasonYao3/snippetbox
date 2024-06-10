@@ -10,6 +10,10 @@ import (
 	"github.com/jasonyao3/snippetbox/ui"
 )
 
+var functions = template.FuncMap{
+	"humanDate": humanDate,
+}
+
 type templateData struct {
 	CurrentYear     int
 	Snippet         *models.Snippet
@@ -26,10 +30,6 @@ func humanDate(t time.Time) string {
 	}
 
 	return t.UTC().Format("02 Jan 2006 at 15:04")
-}
-
-var functions = template.FuncMap{
-	"humanDate": humanDate,
 }
 
 func newTemplateCache() (map[string]*template.Template, error) {

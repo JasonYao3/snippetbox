@@ -6,7 +6,7 @@ import (
 	"github.com/jasonyao3/snippetbox/internal/assert"
 )
 
-func TestUserModelExists(t *testing.T) {
+func TestUserModelExists(t *testing.T) { 
 	if testing.Short() {
 		t.Skip("models: skipping integration test")
 	}
