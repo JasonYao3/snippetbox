@@ -14,7 +14,7 @@ Snippetbox is a simple web application designed to store and manage code snippet
 - **Delete Snippets**: Remove snippets that are no longer needed.
 - **List Snippets**: Browse through a list of all available snippets.
 - **User Authentication**: Secure user authentication system to manage user-specific snippets.
-- 
+
 ---
 
 ### Built With
