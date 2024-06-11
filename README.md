@@ -3,8 +3,11 @@
 ### Introduction
 
 Snippetbox is a simple web application designed to store and manage code snippets. Users can create, view, edit, and delete their snippets, making it a convenient tool for developers to keep track of important pieces of code.
+---
 
 ![image](https://github.com/JasonYao3/snippetbox/assets/50341059/7f75bdd2-27fb-4bf0-8300-89b82e25123e)
+
+---
 
 ### Features
 
